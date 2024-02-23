@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-content {
+    margin-bottom: 40px;
+}
+
+.cta {
+    text-align: center;
+}
+
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+</style>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Our Landing Page</h1>
+        </header>
+        <section class="main-content">
+            <h2>About Us</h2>
+            <p>Welcome to our landing page! We are dedicated to providing top-notch products/services to our customers. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum tortor vel sem auctor, id aliquet risus laoreet. Nunc posuere vel turpis at iaculis. Vivamus commodo justo non nunc consequat tincidunt</p>
+        </section>
+        <section class="cta">
+            <h2>Subscribe to Our New</h2>
+            <form action="#" method="POST">
+                <input type="email" name="email" placeholder="Your Email Address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
